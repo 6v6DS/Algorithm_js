@@ -20,6 +20,7 @@ function solution(s) {
         if(a > b) return -1;
         if(a === b) return 0;
     });
+
     answer.push(Lower, Upper);
     return answer.join("").replace(/,/g, "");
 }
